@@ -1,14 +1,41 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "rinoldsimon.github.io" # the base hostname & protocol for your site.
+title: "rinoldsimon"
 
-# Build settings
-markdown: kramdown
+
+paginate: 3 #articles per page
+paginate_path: /blog/page:num #makes pagination working
+
+
+#contacts
+git: "https://github.com/rinoldsimon"  #Add your github url here.
+wordpress: "http://learnrubyblog.wordpress.com/" #Add your wordpress url here.
+twitter: "https://twitter.com/crisrinold"  #Add your twitter url here.
+linkedin: "in.linkedin.com/pub/rinold-simon/68/108/244/"
+facebook: "https://www.facebook.com/crisrinold"
+
+gems:
+  - jekyll-sitemap
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

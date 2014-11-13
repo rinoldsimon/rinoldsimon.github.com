@@ -1,0 +1,33 @@
+<div id="title">
+  <h1>
+    {% if site.git %}
+      <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>
+    {% endif %}
+
+    {% if site.wordpress %}
+      <a id="so-ic" href="{{site.wordpress}}"><i class="fa fa-wordpress"></i></a>
+    {% endif %}
+    <a id="sitename" href="/">rinoldsimon.github.io</a>
+    {% if site.linkedin %}
+      <a id="so-ic" href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
+    {% endif %}
+
+    {% if site.twitter %}
+      <a id="so-ic" href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
+    {% endif %}
+
+    {% if site.facebook %}
+      <a id="so-ic" href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
+    {% endif %}
+  </h1>
+<div style="block">
+</div>
+  <!-- Add something about you in p tag-->
+  <p>Hello, my name is Rinold Simon. And I'm trying to become a Ruby on Rails Developer.</p>
+  <hr/>
+  
+  {% include nav-links.html %} 
+  
+</div>
+
+
