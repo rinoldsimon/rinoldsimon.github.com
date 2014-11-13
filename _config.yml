@@ -11,7 +11,7 @@ paginate_path: /blog/page:num #makes pagination working
 git: "https://github.com/rinoldsimon"  #Add your github url here.
 wordpress: "http://learnrubyblog.wordpress.com/" #Add your wordpress url here.
 twitter: "https://twitter.com/crisrinold"  #Add your twitter url here.
-linkedin: "in.linkedin.com/pub/rinold-simon/68/108/244/"
+linkedin: "https://www.linkedin.com/pub/rinold-simon/68/108/244"
 facebook: "https://www.facebook.com/crisrinold"
 
 gems:
