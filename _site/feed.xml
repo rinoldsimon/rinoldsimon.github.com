@@ -5,8 +5,8 @@
     <description></description>
     <link>rinoldsimon.github.io/</link>
     <atom:link href="rinoldsimon.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Aug 2015 21:15:01 +0530</pubDate>
-    <lastBuildDate>Tue, 25 Aug 2015 21:15:01 +0530</lastBuildDate>
+    <pubDate>Thu, 22 Oct 2015 20:29:00 +0530</pubDate>
+    <lastBuildDate>Thu, 22 Oct 2015 20:29:00 +0530</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -188,8 +188,8 @@ Or just  edit &lt;mark&gt;stylesheets/style.css&lt;/mark&gt;&lt;/p&gt;
 
 &lt;p&gt;It imports the latest version of &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome&quot;&gt;Font Awesome&lt;/a&gt;. You can use it with &lt;code&gt;button&lt;/code&gt;s like so:&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&amp;gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt; Tweet&amp;lt;/button&amp;gt;
-&amp;lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&amp;gt;&lt;i class=&quot;fa fa-envelope-o&quot;&gt;&lt;/i&gt; Email&amp;lt;/button&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt; Tweet&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;&lt;i class=&quot;fa fa-envelope-o&quot;&gt;&lt;/i&gt; Email&lt;/button&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;text-helpers&quot;&gt;Text Helpers&lt;/h2&gt;
 
