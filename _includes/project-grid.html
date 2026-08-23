@@ -1,0 +1,14 @@
+<div class="project-grid">
+  {% for project in site.data.projects %}
+    <article class="project-card">
+      <p class="project-meta">{{ project.context }} · {{ project.period }}</p>
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.summary }}</p>
+      <ul class="tags">
+        {% for tag in project.tags %}
+          <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </article>
+  {% endfor %}
+</div>

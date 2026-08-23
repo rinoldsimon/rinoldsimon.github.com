@@ -1,0 +1,10 @@
+- group: Frontend
+  items: [React, JavaScript, TypeScript, Tailwind CSS, HTML/CSS]
+- group: Backend
+  items: [Ruby on Rails, Node.js]
+- group: Data
+  items: [PostgreSQL, MySQL, Redis]
+- group: Tools
+  items: [Git, Docker, Sidekiq, REST APIs, RSpec]
+- group: AI
+  items: [Cursor, Claude, ChatGPT, Gemini]

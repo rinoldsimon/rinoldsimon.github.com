@@ -1,0 +1,26 @@
+<div class="timeline">
+  {% for job in site.data.experience %}
+    <article class="job">
+      <div class="job-head">
+        <h3>{{ job.company }}</h3>
+        <p class="job-place">{{ job.location }}</p>
+      </div>
+      {% for role in job.roles %}
+        <div class="role">
+          <div class="role-meta">
+            <h4>
+              {{ role.title }}
+              {% if role.subtitle %}<span>{{ role.subtitle }}</span>{% endif %}
+            </h4>
+            <p class="dates">{{ role.dates }}</p>
+          </div>
+          <ul>
+            {% for bullet in role.bullets %}
+              <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </article>
+  {% endfor %}
+</div>

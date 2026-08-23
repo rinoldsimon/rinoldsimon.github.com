@@ -2,3 +2,6 @@ _site
 Gemfile.lock
 .DS_Store
 .sass-cache
+.tmp-resume
+.tmp-preview
+vendor

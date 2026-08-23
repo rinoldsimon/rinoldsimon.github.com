@@ -1,41 +1,46 @@
-baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "rinoldsimon.github.io" # the base hostname & protocol for your site.
-title: "rinoldsimon"
+title: Rinold Simon
+tagline: Senior Full-Stack Engineer
+description: >-
+  Senior Full-Stack Engineer in Chennai. Ten years with Ruby on Rails and React,
+  remote teams, and lately Python and AI-assisted development.
+url: "https://rinoldsimon.github.io"
+baseurl: ""
 
+email: crisrinold@gmail.com
+phone_display: "+91 72995 44052"
+phone_href: "+917299544052"
+location: Chennai, India
 
-paginate: 3 #articles per page
-paginate_path: /blog/page:num #makes pagination working
+github: "https://github.com/rinoldsimon"
+linkedin: "https://www.linkedin.com/in/rinoldsimon/"
+x: "https://x.com/crisrinold"
+stackoverflow: "https://stackoverflow.com/users/2480797/rinold-simon"
+wordpress: "https://learnrubyblog.wordpress.com/"
+aboutme: "https://about.me/rinoldsimon"
+resume_pdf: "/files/Rinold-Simon-Resume.pdf"
 
-
-#contacts
-git: "https://github.com/rinoldsimon"  #Add your github url here.
-wordpress: "http://learnrubyblog.wordpress.com/" #Add your wordpress url here.
-twitter: "https://twitter.com/crisrinold"  #Add your twitter url here.
-linkedin: "https://www.linkedin.com/pub/rinold-simon/68/108/244"
-facebook: "https://www.facebook.com/crisrinold"
-
-gems:
+plugins:
   - jekyll-sitemap
 
-# This is used by feed.xml. Uncomment if you want to use it.
-# description: "..."
-
 exclude:
-  - "README.md"
-  - "CHANGELOG.md"
-  - "Gemfile"
-  - "Gemfile.lock"
+  - README.md
+  - CHANGELOG.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - vendor
+
 permalink: :title
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
-      layout: "default"
-  -
-    scope:
+      layout: default
+  - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
+      layout: post
+      published: false

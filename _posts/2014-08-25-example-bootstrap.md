@@ -1,6 +1,7 @@
 ---
 title: "Autm-rb some bootstrap"
 tags: [read this first, bootstrap, css]
+published: false
 ---
 ###To customize default bootstrap components and variables use <mark>stylesheets/bs.scss</mark>
 You can use all the available components of TwitterBootstrap. Here are some of them.

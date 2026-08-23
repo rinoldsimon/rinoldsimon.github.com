@@ -1,6 +1,7 @@
 ---
 title: "Autm-rb essential stuff"
 tags: [read this first, bootstrap, css]
+published: false
 ---
 
 This theme uses [Bootstrap](http://getbootstrap.com/) for styling. Here're some stuff you should know before using it. To learn more, check out Bootstrap's [documentation](http://getbootstrap.com/css/).

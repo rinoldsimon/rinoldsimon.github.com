@@ -1,0 +1,18 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="{{ "/" | relative_url }}">Rinold Simon</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Menu</span>
+      <span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      <a href="{{ "/" | relative_url }}#about">About</a>
+      <a href="{{ "/" | relative_url }}#work">Work</a>
+      <a href="{{ "/" | relative_url }}#experience">Experience</a>
+      <a href="{{ "/resume/" | relative_url }}"{% if page.title == "Resume" %} aria-current="page"{% endif %}>Resume</a>
+      <a href="{{ site.wordpress }}" target="_blank" rel="noopener noreferrer">Articles</a>
+      <a href="{{ "/" | relative_url }}#contact">Contact</a>
+    </nav>
+  </div>
+</header>

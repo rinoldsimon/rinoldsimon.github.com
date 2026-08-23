@@ -1,0 +1,49 @@
+- company: EliteCoders
+  location: Remote
+  dates: Apr 2022 – Present
+  url: https://portfolio.elitecoders.co/
+  note: Building EliteCoders — a product studio. Client work and our own platforms.
+  roles:
+    - title: Senior Software Engineer
+      subtitle: Core Platform
+      dates: Apr 2022 – Present
+      bullets:
+        - "Building the core product: a remote hiring platform that connects companies with developers."
+        - Shipping the studio’s own work and keeping the platform fast — rewriting slow API calls, cleaning leftover frontend.
+    - title: Senior Software Engineer
+      subtitle: Consultant for GUILDHOUSE Group
+      dates: Dec 2022 – Present
+      bullets:
+        - Build and maintain core features for Student Information Systems, keeping data moving and the day-to-day usable.
+        - Develop React interfaces and connect them to Ruby on Rails APIs.
+        - Tune PostgreSQL queries and run heavy work on Sidekiq and Redis.
+        - Work with US-based clients — daily updates, code reviews, shipping on time.
+
+- company: Maxiom Technology
+  location: Remote
+  roles:
+    - title: Senior Full Stack Developer
+      subtitle: Consultant for FiscalNote
+      dates: Jun 2021 – Mar 2022
+      bullets:
+        - Migrated the FiscalNote platform from a complex microservices setup into one Ruby on Rails application.
+        - Reshaped the database so the new system ran faster and more reliably than what it replaced.
+    - title: Full Stack Developer
+      subtitle: Internal · hyperlogs
+      dates: Jan 2021 – May 2021
+      bullets:
+        - Fixed bugs and shipped core features for the hyperlogs web app.
+        - Helped build a Flutter mobile client for the same product.
+    - title: Full Stack Developer
+      dates: Jun 2019 – Dec 2020
+      bullets:
+        - Built a Node.js service that managed Amazon seller accounts — orders and shipping — without someone clicking through it all.
+
+- company: Digiryte Ltd
+  location: Chennai, India
+  roles:
+    - title: Lead Frontend Developer
+      dates: Jun 2016 – May 2019
+      bullets:
+        - Led frontend for a healthcare application, with patient data handled to industry standards.
+        - Ran a team of six as tech lead — daily scrum, mentoring, and keeping delivery honest.
