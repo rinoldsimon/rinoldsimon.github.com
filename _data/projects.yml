@@ -1,24 +1,24 @@
 - title: EliteCoders
   context: Core Platform
-  period: 2022 – Present
+  period: 2022
   url: https://portfolio.elitecoders.co/
-  tags: [Rails, React, APIs]
-  summary: Building EliteCoders, a product studio. The core platform is a remote hiring product that connects companies with developers. More of the work lives on our portfolio.
+  tags: [Rails, React]
+  summary: Part of the founding team that launched elitecoders.co — a US hiring platform connecting developers with recruiters. More of the studio’s work lives on the portfolio.
 
-- title: Student Information Systems
+- title: AE Connect
   context: GUILDHOUSE Group · EliteCoders
   period: 2022 – Present
   tags: [React, Rails, PostgreSQL]
-  summary: Core product work on a student information system — enrollments, records, the unglamorous workflows that have to be right. I build the React UI, talk to Rails APIs, and keep the heavy jobs on Sidekiq so the app stays responsive.
+  summary: Student information system for 300+ K-12 schools and about 15,000 students — onboarding, grading, scheduling. React portals, Rails APIs, Sidekiq for the heavy reports.
 
 - title: FiscalNote, rebuilt
   context: Maxiom Technology
   period: 2021 – 2022
   tags: [Rails, Architecture]
-  summary: Helped fold a sprawling microservices setup into one Ruby on Rails application. Fewer moving parts, a cleaner database, and a system that held up better than the one it replaced.
+  summary: Folded a sprawling microservices setup — including auth — into one Ruby on Rails application. Fewer moving parts, and it held up better than what it replaced.
 
 - title: Amazon seller automation
   context: Maxiom Technology
   period: 2019 – 2020
-  tags: [Node.js]
-  summary: A Node.js service that ran Amazon seller accounts without a human in the loop — orders in, shipping handled, logistics ticking over on their own.
+  tags: [Electron, Node.js]
+  summary: An Electron app that ran Amazon seller accounts on its own — thousands of orders a day, replacing a 10-person manual process.

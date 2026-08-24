@@ -11,10 +11,12 @@ SITE = {
     "stackoverflow": "https://stackoverflow.com/users/2480797/rinold-simon",
     "wordpress": "https://learnrubyblog.wordpress.com/",
     "elitecoders": "https://portfolio.elitecoders.co/",
+    "elitecoders_site": "https://elitecoders.co/",
+    "socialrails": "https://socialrails.onrender.com",
     "resume_pdf": "/files/Rinold-Simon-Resume.pdf",
     "description": (
         "Senior Full-Stack Engineer in Chennai. Ten years with Ruby on Rails and React, "
-        "remote teams, and lately Python and AI-assisted development."
+        "remote teams, and lately Python, FastAPI, and AI-assisted development."
     ),
 }
 
@@ -28,22 +30,20 @@ EXPERIENCE = [
         "roles": [
             {
                 "title": "Senior Software Engineer",
-                "subtitle": "Core Platform",
-                "dates": "Apr 2022 – Present",
+                "subtitle": "Consultant for GUILDHOUSE Group",
+                "dates": "Dec 2022 – Present",
                 "bullets": [
-                    "Building the core product: a remote hiring platform that connects companies with developers.",
-                    "Shipping the studio’s own work and keeping the platform fast — rewriting slow API calls, cleaning leftover frontend.",
+                    "Built AE Connect, a student information system used by 300+ K-12 schools and about 15,000 students.",
+                    "React portals on Rails, with PostgreSQL, Sidekiq, and AWS carrying the heavy reporting.",
                 ],
             },
             {
                 "title": "Senior Software Engineer",
-                "subtitle": "Consultant for GUILDHOUSE Group",
-                "dates": "Dec 2022 – Present",
+                "subtitle": "Core Platform",
+                "dates": "Apr 2022 – Nov 2022",
                 "bullets": [
-                    "Build and maintain core features for Student Information Systems, keeping data moving and the day-to-day usable.",
-                    "Develop React interfaces and connect them to Ruby on Rails APIs.",
-                    "Tune PostgreSQL queries and run heavy work on Sidekiq and Redis.",
-                    "Work with US-based clients — daily updates, code reviews, shipping on time.",
+                    "Part of the founding team that launched elitecoders.co — a US platform connecting developers with recruiters.",
+                    "Shipped the core Rails app and the client work on the EliteCoders portfolio.",
                 ],
             },
         ],
@@ -57,25 +57,25 @@ EXPERIENCE = [
                 "subtitle": "Consultant for FiscalNote",
                 "dates": "Jun 2021 – Mar 2022",
                 "bullets": [
-                    "Migrated the FiscalNote platform from a complex microservices setup into one Ruby on Rails application.",
-                    "Reshaped the database so the new system ran faster and more reliably than what it replaced.",
+                    "Migrated FiscalNote — including auth and identity — from microservices into one Rails app.",
+                    "Cleaned up the data model so the new system loaded faster than what it replaced.",
                 ],
             },
             {
                 "title": "Full Stack Developer",
-                "subtitle": "Internal · hyperlogs",
+                "subtitle": "Internal · Hyperlogs",
                 "dates": "Jan 2021 – May 2021",
                 "bullets": [
-                    "Fixed bugs and shipped core features for the hyperlogs web app.",
-                    "Helped build a Flutter mobile client for the same product.",
+                    "Built time-tracking and timesheets for Hyperlogs, an internal Ember.js app.",
+                    "Flutter prototype so people could log hours on iOS and Android.",
                 ],
             },
             {
                 "title": "Full Stack Developer",
-                "subtitle": "",
+                "subtitle": "E-Commerce Automation",
                 "dates": "Jun 2019 – Dec 2020",
                 "bullets": [
-                    "Built a Node.js service that managed Amazon seller accounts — orders and shipping — without someone clicking through it all.",
+                    "Electron app on Node that ran Amazon seller accounts — thousands of orders a day, replacing a 10-person manual process.",
                 ],
             },
         ],
@@ -89,8 +89,8 @@ EXPERIENCE = [
                 "subtitle": "",
                 "dates": "Jun 2016 – May 2019",
                 "bullets": [
-                    "Led frontend for a healthcare application, with patient data handled to industry standards.",
-                    "Ran a team of six as tech lead — daily scrum, mentoring, and keeping delivery honest.",
+                    "Led frontend for a HIPAA-compliant healthcare app for UK and Germany clients.",
+                    "Ran a team of six — standups, mentoring, shipping.",
                 ],
             },
         ],
@@ -101,40 +101,43 @@ PROJECTS = [
     {
         "title": "EliteCoders",
         "context": "Core Platform",
-        "period": "2022 – Present",
+        "period": "2022",
         "url": "https://portfolio.elitecoders.co/",
-        "tags": ["Rails", "React", "APIs"],
-        "summary": "Building EliteCoders, a product studio. The core platform is a remote hiring product that connects companies with developers. More of the work lives on our portfolio.",
+        "tags": ["Rails", "React"],
+        "summary": "Part of the founding team that launched elitecoders.co — a US hiring platform connecting developers with recruiters. More of the studio’s work lives on the portfolio.",
     },
     {
-        "title": "Student Information Systems",
+        "title": "AE Connect",
         "context": "GUILDHOUSE Group · EliteCoders",
         "period": "2022 – Present",
         "tags": ["React", "Rails", "PostgreSQL"],
-        "summary": "Core product work on a student information system — enrollments, records, the unglamorous workflows that have to be right. I build the React UI, talk to Rails APIs, and keep the heavy jobs on Sidekiq so the app stays responsive.",
+        "summary": "Student information system for 300+ K-12 schools and about 15,000 students — onboarding, grading, scheduling. React portals, Rails APIs, Sidekiq for the heavy reports.",
     },
     {
         "title": "FiscalNote, rebuilt",
         "context": "Maxiom Technology",
         "period": "2021 – 2022",
         "tags": ["Rails", "Architecture"],
-        "summary": "Helped fold a sprawling microservices setup into one Ruby on Rails application. Fewer moving parts, a cleaner database, and a system that held up better than the one it replaced.",
+        "summary": "Folded a sprawling microservices setup — including auth — into one Ruby on Rails application. Fewer moving parts, and it held up better than what it replaced.",
     },
     {
         "title": "Amazon seller automation",
         "context": "Maxiom Technology",
         "period": "2019 – 2020",
-        "tags": ["Node.js"],
-        "summary": "A Node.js service that ran Amazon seller accounts without a human in the loop — orders in, shipping handled, logistics ticking over on their own.",
+        "tags": ["Electron", "Node.js"],
+        "summary": "An Electron app that ran Amazon seller accounts on its own — thousands of orders a day, replacing a 10-person manual process.",
     },
 ]
 
 SKILLS = [
     ("Frontend", ["React", "JavaScript", "TypeScript", "Tailwind CSS", "HTML/CSS"]),
-    ("Backend", ["Ruby on Rails", "Node.js"]),
+    ("Backend", ["Ruby on Rails", "Node.js", "REST APIs"]),
     ("Data", ["PostgreSQL", "MySQL", "Redis"]),
-    ("Tools", ["Git", "Docker", "Sidekiq", "REST APIs", "RSpec"]),
+    ("Cloud & ops", ["AWS", "Docker", "Git", "Sidekiq", "Sentry"]),
+    ("Automation", ["Electron", "Flutter", "Puppeteer", "Zapier"]),
     ("AI", ["Cursor", "Claude", "ChatGPT", "Gemini"]),
+    ("Learning", ["Python", "FastAPI"]),
+    ("Also", ["Ember.js", "Elixir"]),
 ]
 
 
@@ -292,7 +295,9 @@ def layout(title, description, body, extra_title=False, path="/"):
     <title>{full_title}</title>
     <meta name="description" content="{description}">
     <link rel="canonical" href="{canonical}">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{full_title}">
     <meta property="og:description" content="{description}">
@@ -333,7 +338,7 @@ def home():
     <div class="hero-copy">
       <p class="eyebrow">Chennai · Full-stack · Remote-friendly</p>
       <h1>Rinold Simon</h1>
-      <p class="lede">Senior engineer with a decade of Rails and React. I’m building <a href="{SITE["elitecoders"]}" target="_blank" rel="noopener noreferrer">EliteCoders</a>, and poking at Python and AI-assisted workflows for whatever comes next.</p>
+      <p class="lede">Senior engineer with a decade of Rails and React. I’m building <a href="{SITE["elitecoders"]}" target="_blank" rel="noopener noreferrer">EliteCoders</a>, and poking at Python, FastAPI, and AI-assisted workflows for whatever comes next.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="mailto:{SITE["email"]}">Say hello</a>
         <a class="btn btn-ghost" href="/resume/">Resume</a>
@@ -354,7 +359,7 @@ def home():
       <h2>Still building. Still curious.</h2>
     </div>
     <div class="prose">
-      <p>I’m a Senior Full-Stack Engineer based in Chennai, with ten years of shipping web apps and distributed systems. Rails and React are home base. These days I’m also leaning into Python and AI-driven development — using tools like Cursor, Claude, and Gemini to write cleaner code and move through hard bugs faster.</p>
+      <p>I’m a Senior Full-Stack Engineer based in Chennai, with ten years of shipping web apps and distributed systems. Rails and React are home base. These days I’m also leaning into Python and FastAPI — using tools like Cursor, Claude, and Gemini to write cleaner code and move through hard bugs faster.</p>
       <p>Most of my recent work has been with remote US teams: student systems, hiring products, platform migrations. I’m also building <a href="{SITE["elitecoders"]}" target="_blank" rel="noopener noreferrer">EliteCoders</a>, a product studio. When I’m away from the keyboard I’m at the gym, and a proud dad to two kids.</p>
       <p>I write about Rails on my <a href="{SITE["wordpress"]}" target="_blank" rel="noopener noreferrer">tech blog</a>, and I hang around <a href="{SITE["stackoverflow"]}" target="_blank" rel="noopener noreferrer">Stack Overflow</a> — about 3,000 reputation, mostly Rails and the old Ember.js days.</p>
     </div>
@@ -373,7 +378,7 @@ def home():
     <h2>A few things worth talking about</h2>
     <p class="section-lead">Not a dump of every repo. Just the work that still feels interesting — a studio we’re building, school systems, a platform rewrite, a bot that ran Amazon accounts on its own.</p>
     {project_grid()}
-    <p class="aside">More studio work on the <a href="{SITE["elitecoders"]}" target="_blank" rel="noopener noreferrer">EliteCoders portfolio</a>. There’s also <a href="https://github.com/rinoldsimon/SocialRails" target="_blank" rel="noopener noreferrer">SocialRails</a> on GitHub — feeds, follows, and chat in Rails.</p>
+    <p class="aside">More studio work on the <a href="{SITE["elitecoders"]}" target="_blank" rel="noopener noreferrer">EliteCoders portfolio</a>. There’s also <a href="{SITE["socialrails"]}" target="_blank" rel="noopener noreferrer">SocialRails</a> — feeds, follows, and chat in Rails.</p>
   </div>
 </section>
 
@@ -430,7 +435,7 @@ def resume():
   </div>
   <div class="wrap resume-block">
     <h2>Summary</h2>
-    <p>Senior Full-Stack Engineer with 10 years of building reliable web applications. Strong in Ruby on Rails and React. Used to remote international teams and the full path from database design to frontend deploy. I care about clean code, performance, and shipping on time — and I use modern AI tools (Cursor, Claude, ChatGPT, Gemini) to write tighter code and debug faster.</p>
+    <p>Senior Full-Stack Engineer with 10 years of building reliable web applications. Strong in Ruby on Rails and React. Used to remote international teams and the full path from database design to frontend deploy. Lately I’m expanding into Python and FastAPI, and I use Cursor, Claude, ChatGPT, and Gemini to write tighter code and debug faster.</p>
   </div>
   <div class="wrap resume-block">
     <h2>Experience</h2>
@@ -444,7 +449,7 @@ def resume():
     <div class="resume-block">
       <h2>Education</h2>
       <p class="edu-title">Master of Science (M.Sc) in Information Technology</p>
-      <p>College of Engineering Guindy · Chennai · 2016</p>
+      <p>College of Engineering Guindy, Anna University · Chennai · 2016</p>
     </div>
     <div class="resume-block">
       <h2>Languages</h2>
@@ -458,7 +463,7 @@ def resume():
       <li><a href="{SITE["elitecoders"]}">EliteCoders</a> — studio portfolio</li>
       <li><a href="{SITE["stackoverflow"]}">Stack Overflow</a> — 3,000+ reputation</li>
       <li><a href="{SITE["wordpress"]}">Tech blog</a> — Rails writing</li>
-      <li><a href="https://github.com/rinoldsimon/SocialRails">SocialRails</a> — open-source social app in Rails</li>
+      <li><a href="{SITE["socialrails"]}">SocialRails</a> — open-source social app in Rails</li>
     </ul>
   </div>
 </article>
@@ -476,7 +481,7 @@ def projects():
   </div>
   <div class="wrap">
     {project_grid()}
-    <p class="aside">More on <a href="{SITE["github"]}" target="_blank" rel="noopener noreferrer">GitHub</a>, including <a href="https://github.com/rinoldsimon/SocialRails" target="_blank" rel="noopener noreferrer">SocialRails</a>.</p>
+    <p class="aside">More on <a href="{SITE["github"]}" target="_blank" rel="noopener noreferrer">GitHub</a>, including <a href="{SITE["socialrails"]}" target="_blank" rel="noopener noreferrer">SocialRails</a>.</p>
   </div>
 </article>
 """

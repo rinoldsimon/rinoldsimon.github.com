@@ -1,10 +1,16 @@
 - group: Frontend
   items: [React, JavaScript, TypeScript, Tailwind CSS, HTML/CSS]
 - group: Backend
-  items: [Ruby on Rails, Node.js]
+  items: [Ruby on Rails, Node.js, REST APIs]
 - group: Data
   items: [PostgreSQL, MySQL, Redis]
-- group: Tools
-  items: [Git, Docker, Sidekiq, REST APIs, RSpec]
+- group: Cloud & ops
+  items: [AWS, Docker, Git, Sidekiq, Sentry]
+- group: Automation
+  items: [Electron, Flutter, Puppeteer, Zapier]
 - group: AI
   items: [Cursor, Claude, ChatGPT, Gemini]
+- group: Learning
+  items: [Python, FastAPI]
+- group: Also
+  items: [Ember.js, Elixir]
